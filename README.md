@@ -5,9 +5,13 @@
 <h2>Description</h2>
 In this lab, I have created a honeypot in Azure.
 I launched a virtual machine and connected it to the public internet, so that it would get attacked quickly.\ 
+
 I configured log forwarding to forward the logs and failed attack attempts into a centralized repository.\ 
+
 I then connected the centralized repository to a SIEM and then created an attack map that displays where all of the attackers are coming from.\
+
 My objective with this lab is to not only showcase skills in Azure and Microsoft Sentinel, but also to demonstrate just how quickly an insecure machine is attacked and at what volume.\
+
 
 
 I created a free Azure subscription and logged in to my Azure account. I then spun up an Azure Virtual Machine and created new Windows 10 Virtual Machines and create log in credentials. 
